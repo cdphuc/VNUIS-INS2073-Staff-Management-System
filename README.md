@@ -1,54 +1,50 @@
-Employee Management System
-Overview
-A C++ console application for managing employees, departments, and schedules with file persistence.
+# Employee Management System
 
-Features
-Add, update, delete, and search for employees
-Assign schedules and manage departmental information
-Save and load data to/from a file
-Classes
-Schedule
-Attributes: scheduleID, startTime, endTime
-Methods: Constructors, getters, setters
-Employee
-Attributes: employeeID, employeeName, dateOfBirth, salary, schedule, department
-Methods: Constructors, getters, setters, inputEmployee(), displayEmployeeDetails()
-Department
-Attributes: departmentID, departmentName, location, employees
-Methods: Constructors, getters, setters, addEmployee(), deleteEmployee(), displayDepartmentDetails()
-Key Functions
-createSchedules(): Create predefined schedules.
-createEmployeeMenu(): Add new employees.
-displayDepartmentsMenu(): Display employees by department.
-findEmployeeByID(): Find an employee by ID.
-updateEmployeeByID(): Update employee details.
-deleteEmployeeFromDepartment(): Delete an employee by ID.
-searchEmployeeByID(): Search for an employee by ID.
-saveDataToFile(): Save data to data.txt.
-loadDataFromFile(): Load data from data.txt.
-How to Run
-Compile:
+This is a C++ program that allows you to manage employees, their schedules, and departments in an organization. The program provides various functionalities to create, display, update, delete, and search for employees.
 
-Sao chép mã
-g++ -o EmployeeManagementSystem EmployeeManagementSystem.cpp
-Run:
+## Features
 
-Sao chép mã
-./EmployeeManagementSystem
-Follow the on-screen instructions.
+- Create employees with unique IDs, names, dates of birth, salaries, and schedules
+- Assign employees to different departments (Sales, Technology, Finance)
+- Update employee information such as name, date of birth, salary, schedule, and department
+- Delete employees from a specific department
+- Search employees by their ID or schedule ID
+- Display information about departments and their employees
+- Save and load employee data from a file
 
-Data File (data.txt) Format
-php
-Sao chép mã
-<number_of_used_employee_ids>
-<used_employee_id_1>
-<used_employee_id_2>
-...
-<employee_id>
-<employee_name>
-<date_of_birth>
-<salary>
-<schedule_id>
-<department_id>
-...
-Place data.txt in the same directory as the executable when running the program.
+## How to Use
+
+1. Compile and run the program.
+2. The program will display a main menu with the following options:
+  - Create Employee
+  - Display Departments
+  - Update Employee Information
+  - Delete Employee from Department
+  - Search Employee
+  - Exit
+3. Follow the on-screen instructions to navigate through the different options and perform the desired operations.
+
+## File Structure
+
+- `main.cpp`: Contains the main program logic and implementation of all classes and functions.
+- `data.txt`: File used to store and load employee data.
+
+## Dependencies
+
+The program uses the following C++ standard libraries:
+
+- `iostream`: For input/output operations
+- `string`: For string manipulation
+- `vector`: For dynamic array implementation
+- `map`: For associative container implementation
+- `fstream`: For file input/output operations
+- `set`: For set container implementation
+- `conio.h`: For console input/output operations (may need to be replaced on non-Windows systems)
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
