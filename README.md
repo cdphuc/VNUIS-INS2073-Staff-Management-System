@@ -1,4 +1,4 @@
-# Employee Management System
+# Staff Management System
 
 This is a C++ program that allows you to manage employees, their schedules, and departments in an organization. The program provides various functionalities to create, display, update, delete, and search for employees.
 
