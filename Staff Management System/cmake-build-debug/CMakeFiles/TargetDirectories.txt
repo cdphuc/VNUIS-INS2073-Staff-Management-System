@@ -1,0 +1,3 @@
+D:/Programming 2/Final Project/Staff Management System/cmake-build-debug/CMakeFiles/Staff_Management_System.dir
+D:/Programming 2/Final Project/Staff Management System/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programming 2/Final Project/Staff Management System/cmake-build-debug/CMakeFiles/rebuild_cache.dir
